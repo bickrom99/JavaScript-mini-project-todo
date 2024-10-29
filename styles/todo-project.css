@@ -1,0 +1,65 @@
+body {
+  font-family: Arial;
+  background: rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+h3 {
+  font-size: 30px;
+  color: #eeff00;
+  text-align: center;
+}
+.project-1 {
+  margin-bottom: 50px;
+}
+.todo-grid,
+.input-todo-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.todo-grid {
+  margin-bottom: 15px;
+}
+.input-todo-grid {
+  margin-bottom: 15px;
+}
+.name-input,
+.due-date-input {
+  font-size: 1rem;
+  color: #1a1a1a;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.add_button {
+  background: green;
+  color: white;
+  border: none;
+  cursor: progress;
+  padding: 14px 10px;
+}
+
+.name_value,
+.date_value {
+  font-size: 1.1rem;
+  color: white;
+}
+.todo_onclick {
+  padding: 10px;
+  background: #b90c0c;
+  border: none;
+  cursor: pointer;
+}
+
+.js-todo-list {
+  font-size: 1.1rem;
+  color: white;
+}
